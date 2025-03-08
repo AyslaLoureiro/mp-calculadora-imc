@@ -3,7 +3,7 @@ import Button from "./components/Button"
 import Input from "./components/Input"
 import Label from "./components/Label"
 import ReferenceTable from "./components/ReferenceTable"
-import { calculateIMC, imcResult } from "./lib/imc";
+import { calculateIMC, imcResult } from "./lib/IMC.ts"
 import ResultsTable from "./components/ResultsTable.tsx";
 function App() {
   const [ IMCData, setIMCData ] = useState<null | {
