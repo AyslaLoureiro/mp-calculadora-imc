@@ -1,5 +1,3 @@
-import React from 'react'
-
  function ReferenceTable() {
   return (
     <table className="mx-auto text-neutral-600 text-left md:text-base text-xs">
